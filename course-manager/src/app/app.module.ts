@@ -3,7 +3,7 @@ import {FormsModule} from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { CourseListComponent } from './curses/curse.list.componet';
+import { CourseListComponent } from './curses/course.list.componet';
 
 @NgModule({
   declarations: [

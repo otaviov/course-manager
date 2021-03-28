@@ -1,15 +1,14 @@
 import {Component, OnInit} from '@angular/core';
+import {Course} from './course';
 
 @Component({
     selector: 'app-course-list',
     templateUrl: './curse.list.componet.html'
-    
-
 })
 
 export class CourseListComponent implements OnInit{
 
-    cousers: Course[] = []
+    courses: Course[] = [];
     ngOnInit(): void {
         this.courses = [
             {
