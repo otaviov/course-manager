@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CourseListComponent } from './curses/course.list.componet';
+import { StarComponent } from './curses/star/star.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CourseListComponent
+    CourseListComponent,
+    StarComponent
   ],
   imports: [
     BrowserModule, FormsModule
