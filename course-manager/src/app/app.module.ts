@@ -5,7 +5,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { CourseListComponent } from './curses/course.list.componet';
 import { StarComponent } from './curses/star/star.component';
-import { NavBarComponent } from './nav-bar/nav-bar-component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ReplacePipe } from './pipe/replace.pipe';
 
 @NgModule({
