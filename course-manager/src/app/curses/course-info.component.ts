@@ -22,6 +22,6 @@ export class CourseInfoComponent implements OnInit{
         this.courseService.save(this.course).subscribe({
             next: course => console.log('Saved with sucess', course),
             error: err => console.log('Error' , err)
-        });
+        })
     }
 }
